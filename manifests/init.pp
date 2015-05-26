@@ -9,7 +9,7 @@ class test1 {
   file { 'test1':
     ensure  => file,
     path    => '/root/test1',
-    content => 'I am test1',
+    content => 'I am test1 TESTING branch',
   }
 
 }
